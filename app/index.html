@@ -2,14 +2,299 @@
 <html>
 <head>
   <title>SAMPLE PROJECT</title>
-  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
 
-  <h1>Hello World</h1>
 
-  <script src="js/vendor.js"></script>
+
+  <div class="header">
+    <h1>Etsy</h1>
+      <div>
+        <input id="your-item" placeholder ="Search for items or shops" />
+        <button id="itemsandsearch">Search</button>
+      </div>
+      <ul class="topright">
+        <li class="SellOnEtsy">Sell on Etsy</li>
+        <li class="Register">Register</li>
+        <li class="signin">Sign in</li>
+        <a href="images/cart"></a>
+          <span class="CartIcon"> <link rel="stylesheet" href=""></span>
+          <span Class="CartText">Cart</span>
+      </ul>
+      <div>
+        <!-- card goes here with a left grey border -->
+      </div>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="/archive">Clothing & Accessories</a></li>
+      <li><a href="/events">Jewelry</a></li>
+      <li><a href="/contact">Craft Supplies & Tools</a></li>
+      <li><a href="/archive">Weddings</a></li>
+      <li><a href="/events">Entertainment</a></li>
+      <li><a href="/contact">Home & living</a></li>
+      <li><a href="/archive">Kids & Baby</a></li>
+      <li><a href="/events">Vintage</a></li>
+    </ul>
+  </nav>
+
+  <div class="lowerContent">
+    <div class="LeftSide">
+  
+      <ul class="SideBar1">
+        <h5 class="SideBar1Header">Show Results For:</h5>
+        <li class="Catagories">All Catagories</li>
+          <li>Home</li>
+          <li>Art</li>
+          <li>Weddings</li>
+          <li>Clothing</li>
+          <li>Jewelry</li>
+          <li>Paper</li>
+          <li>Accessories</li>
+          <li>Craft</li>
+          <li>Bags</li>
+          <li>Bath</li>
+          <li>Shoes</li>
+          <li>Books</li>
+          <li>Electronics & Accessories</li>
+          <li>Toys</li>
+          <li>Pet Supplies</li>
+      </ul>
+
+      <ul class="SideBar2">
+        <h5 class="SideBar2Header">Refine your search:</h5>
+
+          <li class="Catagories">Item Type</li>
+            <li>All items</li>
+            <li>Leater Band</li>
+            <li>Bracelet</li>
+            <hr></hr>
+            <li>Price</li>
+              <input class="lowPrice" placeholder ="Low" />
+              <input class="highPrice" placeholder ="High" />
+            <hr></hr>
+          <li class="Catagories">Filter by Color</li>
+            <div class="redbox">
+
+            <hr></hr>
+          <li class="Catagories">Ordering Options</li>
+            <li>Gift_Cards</li>
+            <li>Customizable</li>
+            <hr></hr>
+          <li class="Catagories">Shop Locations</li>
+            <li>Atlanta</li>
+            <li>Vancouver</li>
+            <li class="SubText">Choose a custom location</li>
+            <hr></hr>
+          <li class="Catagories">Ship</li>
+          <select>
+            <option>United States</option>
+            <option>Canada</option>
+            <option>Mexico</option>
+            <option>Bahamas</option>
+            <option>St Marteen</option>
+            <option>Spain</option>
+            <option>Australia</option>
+      </ul>
+    </div>
+
+<!--       <div class="SideBar3">
+        <h5 class="SideBar3Header">Top Catagories for This Stuff</h5>
+
+        <li class="AllCategories">All Categories</li>
+        <div class="SortBy">Sort By:</div>
+
+          <div class="box1">
+            <div class="heart"></div>
+            <div class="hamburger"></div>
+          </div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <div class="box1"></div>
+          <li></li>
+          <li></li>
+          <li></li>
+      </div> -->
+  </div>
+
+
+    <div class="tiles">
+      <ul class="extra">
+        <li class="top">Top categories for vacation<br><br></li>
+        <li><a href="#">All Categories</a> > "Piece of Mind" (get Results)<p class='sortBy'>Sort by: <a href="#">Relevancy</a></p></li>
+      </ul>
+<!--each tile div is located here via JS -->
+    </div>
+
+
+    <div class="MainBody">
+    
+      <p> Related to <strong>Beach</strong></p>
+
+      <ul>
+        <li><a href="#">Resturants</a></li>
+        <li><a href="#">Parks</a></li>
+        <li><a href="#">Excursions</a></li>
+        <li><a href="#">Nightlife</a></li>
+      </ul>
+
+      <ul>
+        <li><a href="#">Musiums</a></li>
+        <li><a href="#">Local Breweries</a></li>
+        <li><a href="#">All Events</a></li>
+        <li><a href="#">Fun for Free</a></li>
+      </ul>
+
+      <ul>
+        <li><a href="#">Live Music</a></li>
+        <li><a href="#">Acting Classes</a></li>
+        <li><br></li>
+        <li><br></li>
+      </ul>
+
+      <p class="looking">Looking for shops? <a href="#">Jett Setting</a>, <a href="#">Staycation</a>, <a href="#">Staycation</a>. <a href="#">See more</a>.</p>
+
+      <div class="pagenumber">
+        <button class='leftBox'><</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>7</button>
+        <button>8</button>
+        <button>...</button>
+        <button>140 </button>
+        <button class='rightBox'>></button>
+      </div>
+    </div>
+
+    <div class="subscribe">
+      <p>Get top trends and fresh editors' picks in your inbox with Etsy Finds.</p>
+      <form method="post">
+        <input type="text" name="Search" placeholder="Enter your email">
+        <button>Subscribe</button>
+      </form>
+    </div>
+
+    <div class="BigFooter">
+      <div class="column1">
+        <ul>
+          <li>Turn your passion into a<br> business</li>
+          <li><button>Open a shop</button></li>
+          <li>Sell on Etsy</li>
+          <li><a href="#">Seller Handbook</a></li>
+          <li><a href="#">Etsy credit card reader</a></li>
+          <li><br></li>
+          <li><br></li>
+          <li><br></li>
+          <li><br></li>
+        </ul>
+      </div>
+
+      <div class="column2">
+        <ul>
+          <li>Join the community</li>
+          <li><a href="#">Teams</a></li>
+          <li><a href="#">Forums</a></li>
+          <li><a href="#">Upcoming events</a></li>
+          <li><a href="#">Affiliates</a></li>
+          <li><br></li>
+          <li><br></li>
+          <li><br></li>
+          <li><br></li>
+          <li><br></li>
+        </ul>
+      </div>
+
+      <div class="column3">
+        <ul>
+          <li>Discover and shop</li>
+          <li><a href="#">Gift cards</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Tastemakers</a></li>
+          <li><a href="#">Mobile apps</a></li>
+          <li><a href="#">Gift registries</a></li>
+          <li><a href="#">Wholesale</a></li>
+          <li><a href="#">Manufacturing</a></li>
+          <li><a href="#">Search</a></li>
+          <li><a href="#">Etsy Finds</a></li>
+        </ul>
+      </div>
+
+      <div class="column4">
+        <ul>
+          <li>Get to know us</li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Policies</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Investors</a></li>
+          <li><br></li>
+          <li><br></li>
+          <li><br></li>
+        </ul>
+      </div>
+
+      <div class="column5">
+        <ul>
+          <li>Follow Etsy</li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><br></li>
+          <li><br></li>
+          <li><br></li>
+          <li><br></li>
+          <li><br></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footerB">
+      <p>WAT WAT! Boyzie...</p>
+    </div>
+
+
+    <script type="text/template" id="itemTemplate">
+    <div class="eachTile">
+      <a href="<%= url %>"><img src="<%= Images[0].url_170x135 %>"></a>
+      <p class="title"> <a href='<%= Shop.url %>'><%= title %> </a></p>
+      <p class="price"> $<%= price %> <%=currency_code %> </p>
+      <p class="name"> <a href='<%= Shop.url %>'><%=Shop.shop_name %></a> </p>
+    </div>
+  </script>
+
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
