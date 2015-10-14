@@ -221,8 +221,10 @@ div.MainBody {
 div.BigFooter {
   width: 300px;
   height: 300px;
-  list-style-type: none; }
+  list-style-type: none;
+  text-decoration: none; }
 
 div.smallFooter {
   background-color: #C8DEF1;
-  margin-top: 20px; }
+  margin-top: 20px;
+  text-decoration: none; }
