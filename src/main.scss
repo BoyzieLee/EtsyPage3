@@ -1,0 +1,287 @@
+body {
+  padding: 20px;
+  background-color: #F5F5F1;
+}
+
+/*top nav menu*/
+div.header {
+  margin-top: 0;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  color: #33A8C4;
+  background-color: white;
+  list-style: none;
+}
+
+h1 {
+  margin-left: 40px;
+  margin-right: 20px;
+  font-family: Times;
+  font-size: 40px;
+  color: #F66400;
+  float: left;
+}
+
+div input {
+  margin-top: 35px;
+  width: 250px;
+  height: 30px;
+  background-color: 
+  margin-right: 0;
+  border-right: 0;
+}
+
+button {
+  width: 80px;
+  height: 35px;
+  color: white;
+  border-color: #fff;
+  border-radius: 8px;
+  background-color: #33A8C4;
+  margin-left: 0;
+  border-left: 0;
+}
+
+/*left side of top nav menu*/
+ul.topright {
+  text-align: right;
+  float: right;
+  list-style: none;
+  margin: 0;
+  margin-top: -50px;
+  padding-left: 0;
+}
+
+li.SellOnEtsy {
+  border: 1px solid transparent;
+  height: auto;
+  margin-top: 23px;
+  display: block;
+  float: left;
+  padding: 8px;
+  line-height: 16px;
+  font-size: 14px;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #0192B5;
+}
+li.Register {
+  border: 1px solid transparent;
+  height: auto;
+  margin-top: 23px;
+  display: block;
+  float: left;
+  padding: 8px;
+  line-height: 16px;
+  font-size: 14px;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #0192B5;
+  cursor: auto;
+}
+
+li.signin {
+  border: 1px solid transparent;
+  height: auto;
+  margin-top: 23px;
+  display: block;
+  float: left;
+  padding: 8px;
+  line-height: 16px;
+  font-size: 14px;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #0192B5;
+  border-color: #33A8C4;
+  border-radius: 8px;
+  background-color: white;
+}
+
+span.CartText {
+  border-left: 1px gray;
+  padding-left: 24px;
+  color; gray;
+  font-size: 10px;
+  margin-right: 50px;
+}
+/*2nd nav menu*/
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  border-top: 1px solid gray;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: left;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 50px;
+  margin-left: 10px;
+}
+
+li.Clothing {
+  margin-top: 23px;
+  display: inline-block;
+  float: left;
+}
+
+li.Jewelry {
+  margin-top: 23px;
+  display: inline-block;
+  float: left;
+}
+
+/*Should be the left box but...*/
+div.LeftSide {
+  width: 200px;
+  height: 0;
+  margin: 0;
+}
+
+/*Beginning of Sidebar 1*/
+
+h5.SideBar1Header {
+  float: left;
+  width: 130px;
+  margin-right: 0;
+}
+
+ul.SideBar1 {
+  float: left;
+  width: 200px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 12px;
+  list-style: none;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid gray;
+  color: #33A8C4;
+  line-height: 1.2;
+
+}
+
+li.Catagories {
+  color: black;
+  width: 150px;
+  margin-left: -30px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+.lowerContent {
+  width: 1000px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+/*Beginning of Sidebar 2*/
+h5.SideBar2Header {
+  float: left;
+  width: 130px;
+  margin-right: 0;
+}
+
+ul.SideBar2 {
+  float: left;
+  width: 200px;
+  height: 550px;
+  border-radius: 5px;
+  margin-top: 12px;
+  list-style: none;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid gray;
+  color: #33A8C4;
+  line-height: 1.2;
+  font-size: 15px;
+}
+
+input.lowPrice {
+  width: 60px;
+  margin: 0px;
+  margin-right: 10px;
+  padding: 0;
+}
+input.highPrice {
+  width: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+li.SubText {
+  font-size: 10px;
+  width: 1500px;
+  margin-left: -20px;
+}
+div.redbox {
+  width: 15px;
+  height: 15px;
+  float: left;
+  background-color: red;
+}
+
+hr {
+  width: 200px;
+  margin-left: -25px;
+}
+
+h5.SideBar3Header {
+  margin: 0;
+  padding: 0;
+}
+
+.SideBar3 {
+  float: right;
+  display: inline-block;
+  width: 710px;
+  height: 2000px;
+  border-radius: 5px;
+  margin-top: 70px;
+  list-style: none;
+  text-decoration: none;
+  border: 1px solid gray;
+  color: #33A8C4;
+  line-height: 1.2;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 3px;
+  float: right;
+  position: relative;
+}
+.heart {
+  width: 25px;
+  height: 25px;
+  background-color: gray;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+/*  &.show {
+    display: block !important;
+  }*/
+}
+
+.hamburger {
+  width: 25px;
+  height: 25px;
+  background-color: gray;
+  position: absolute;
+  top: 10px;
+  right: 40px;
+/*  &.show {
+    display: block !important;
+  }*/
+}
+
